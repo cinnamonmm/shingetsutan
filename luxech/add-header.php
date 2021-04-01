@@ -30,6 +30,8 @@ $header_imgs = [
     13 => $media_root."/2021/03/jelly_fish_14.png",
 ]
 ?>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+JP&family=Playfair+Display&family=El+Messiri&display=swap" rel="stylesheet">
 <script>
     $(function() {
         $("#header").css("background-image", "url(<?= $header_imgs[random_int(0, 13)] ?>)");

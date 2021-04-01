@@ -34,26 +34,14 @@
 /* 以下、好みに応じて子テーマ用のスタイルをお書きください。
  * ( Below here, please write down your own styles for the child theme. )
  */
-
-#sitename {
-    margin: 32px 0 12px;
-}
+body {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;  }
+#sitename {  margin: 32px 0 12px;  }
 #header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#head-in {
-    background: none;
-}
-#nav {
-    background: none;
-}
-#gnavi .gnavi-container .gu {
-    background: none;
-}
-#gnavi .gnavi-container .gu .gl:hover {
-    background-color: rgba(255, 255, 255, 0.2)
-}
-#gnavi .gnavi-container .gu .gl a {
-    background: none;
-}
+#head-in {  background: none;  }
+#nav {  background: none;  }
+#gnavi .gnavi-container .gu {  background: none;  }
+#gnavi .gnavi-container .gu .gl:hover {  background: none  }
+#gnavi .gnavi-container .gu .gl a {  background: none;  }

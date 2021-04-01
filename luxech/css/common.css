@@ -1,3 +1,8 @@
+body {
+    /*font-family: 'Noto Serif', serif;*/
+    /*font-family: 'Noto Serif JP', serif;*/
+    font-family: 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;
+}
 .fl {  display: flex  }
 .flcl {  display: flex;  flex-direction: column;  }
 .flctr {  display: flex;  justify-content: center;  }
@@ -24,7 +29,7 @@
 #sitename a {  display: flex;  }
 #sitename a img {  height: 39px;  width: 250px;  }
 .textwidget .name._wr {  font-size: 2rem;  margin-top: 2.5rem;  }
-.sns_link .fab {  font-size: 3.4rem;  color: #ffffffbf;  }
+.aside._sns .fab {  font-size: 3.4rem;  color: #ffffffbf;  }
 .aside._img.__cnt {
     width: 16rem;
     -webkit-border-radius: 50%;
@@ -38,10 +43,15 @@
 .aside._name .__cnt {
     margin-left: .65rem;
     margin-right: .65rem;
-    letter-spacing: 2px;
+    letter-spacing: .3em;
 }
 .aside._prof.__wr {
     width: 67%;
     margin: 2rem auto;
-    color: #ffffffbf
+    color: #ffffffbf;
+    letter-spacing: .02em;
+    font-size: 1.4rem;
+}
+.aside._sns.__wr {
+    margin-top: 3.4rem
 }

@@ -1,0 +1,3 @@
+section .excerpt {  letter-spacing: .03em;  }
+section .entry-title {  letter-spacing: 0.067em; font-size: 2.4rem  }
+section .meta .category.items a {  text-decoration: none;  }

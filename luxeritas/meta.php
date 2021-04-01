@@ -75,7 +75,7 @@ if( $visible['P'] === true || $visible['M'] === true || $visible['C'] === true |
 			$published = ' published';
 		}
 		elseif( ( $visible['P'] === false && $visible['M'] === true ) ) {
-			$meta .= '<i class="' . $awesome['fas'] . $fa_repeat . '"></i>';
+//			$meta .= '<i class="' . $awesome['fas'] . $fa_repeat . '"></i>';
 		}
 		else {
 			$meta .= '<i class="' . $awesome['far'] . $fa_calen . '"></i>';
@@ -163,7 +163,8 @@ if( $visible['P'] === true || $visible['M'] === true || $visible['C'] === true |
 			$category = implode( '<span class="break">,</span>', $categories );
 
 			if( !empty( $category ) ) {
-				$meta .= '<span class="category items" itemprop="keywords"><span class="first-item"><i class="' . $awesome['fas'] . 'fa-folder"></i>' . $category . '</span>';
+//				$meta .= '<span class="category items" itemprop="keywords"><span class="first-item"><i class="' . $awesome['fas'] . 'fa-folder"></i>' . $category . '</span>';
+				$meta .= '<span class="category items" itemprop="keywords"><span class="first-item">' . $category . '</span>';
 			}
 		}
 
