@@ -1,77 +1,47 @@
-#sitename {
-    margin-top: 12px;
-}
-#sitename a {
-    display: flex;
-}
-#sitename a img {
-    height: 39px;
-    width: 250px;
-}
-.textwidget .name._wr {
-    font-size: 2rem;
-    margin-top: 2.5rem;
-}
-.sns_link._wr {
-    width: 67%
-}
-.sns_link .fab {
-    font-size: 3.4rem;
-    color: #ffffffbf;
-}
-.aside_img._cnt {
+.fl {  display: flex  }
+.flcl {  display: flex;  flex-direction: column;  }
+.flctr {  display: flex;  justify-content: center;  }
+.w100 {  width: 100%  }
+.w50 {  width: 50%  }
+.m-auto {  margin: auto  }
+.mt-0 {  margin-top: .5rem  }
+.mt-1 {  margin-top: 1rem  }
+.mt-2 {  margin-top: 2rem  }
+.mt-3 {  margin-top: 3rem  }
+.mt-4 {  margin-top: 4rem  }
+.ml-0 {  margin-top: .5rem  }
+.ml-1 {  margin-top: 1rem  }
+.ml-2 {  margin-top: 2rem  }
+.ml-3 {  margin-top: 3rem  }
+.ml-4 {  margin-top: 4rem  }
+.mx-0 {  margin-left: .5rem;  margin-right: .5rem;  }
+.mx-1 {  margin-left: 1rem;  margin-right: 1rem;  }
+.mx-2 {  margin-left: 2rem;  margin-right: 2rem;  }
+.mx-3 {  margin-left: 3rem;  margin-right: 3rem;  }
+.mx-4 {  margin-left: 4rem;  margin-right: 4rem;  }
+.sp-ev {  justify-content: space-evenly  }
+#sitename {  margin-top: 12px;  }
+#sitename a {  display: flex;  }
+#sitename a img {  height: 39px;  width: 250px;  }
+.textwidget .name._wr {  font-size: 2rem;  margin-top: 2.5rem;  }
+.sns_link .fab {  font-size: 3.4rem;  color: #ffffffbf;  }
+.aside._img.__cnt {
     width: 16rem;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
-.fl {
-    display: flex
+.aside._name.__wr {
+    font-size: 1.7rem;
+    margin-top: 2.5rem;
 }
-.flcl {
-    display: flex;
-    flex-direction: column;
+.aside._name .__cnt {
+    margin-left: .65rem;
+    margin-right: .65rem;
+    letter-spacing: 2px;
 }
-.flctr {
-    display: flex;
-    justify-content: center;
-}
-.w100 {
-    width: 100%
-}
-.w50 {
-    width: 50%
-}
-.m-auto {
-    margin: auto
-}
-.mt-0 {
-    margin-top: .5rem
-}
-.mt-1 {
-    margin-top: 1rem
-}
-.mt-2 {
-    margin-top: 2rem
-}
-.mt-3 {
-    margin-top: 3rem
-}
-.mt-4 {
-    margin-top: 4rem
-}
-.ml-0 {
-    margin-top: .5rem
-}
-.ml-1 {
-    margin-top: 1rem
-}
-.ml-2 {
-    margin-top: 2rem
-}
-.ml-3 {
-    margin-top: 3rem
-}
-.ml-4 {
-    margin-top: 4rem
+.aside._prof.__wr {
+    width: 67%;
+    margin: 2rem auto;
+    color: #ffffffbf
 }
