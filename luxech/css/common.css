@@ -25,7 +25,8 @@ body {
 .mx-3 {  margin-left: 3rem;  margin-right: 3rem;  }
 .mx-4 {  margin-left: 4rem;  margin-right: 4rem;  }
 .sp-ev {  justify-content: space-evenly  }
-#sitename {  margin-top: 12px;  }
+.fonted {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;  }
+/*#sitename {  margin-top: 12px;  }*/
 #sitename a {  display: flex;  }
 #sitename a img {  height: 39px;  width: 250px;  }
 .textwidget .name._wr {  font-size: 2rem;  margin-top: 2.5rem;  }
@@ -52,6 +53,37 @@ body {
     letter-spacing: .02em;
     font-size: 1.4rem;
 }
-.aside._sns.__wr {
-    margin-top: 3.4rem
+.aside._sns.__wr {  margin-top: 3.4rem  }
+.date {
+    font-family: "Fraunces", cursive;
+    letter-spacing: 1px;
 }
+.lthumb._wr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lmeta._wr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.lmeta .meta {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.lmeta .meta .category.items {
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.lmeta .meta .category.items a {
+    color: #77bbd8;
+}
+.lmeta .meta .date {
+    opacity: .5;
+}
+/*.card-1 section {  display: flex  }*/
+.card-1 section .term {  display: flex  }
+section .meta .category.items a {  text-decoration: none;  }

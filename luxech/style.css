@@ -34,8 +34,8 @@
 /* 以下、好みに応じて子テーマ用のスタイルをお書きください。
  * ( Below here, please write down your own styles for the child theme. )
  */
-body {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;  }
-#sitename {  margin: 32px 0 12px;  }
+h1, h2, h3 {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;  }
+#sitename {  margin: 4rem 0;  }
 #header {
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,3 +45,70 @@ body {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Se
 #gnavi .gnavi-container .gu {  background: none;  }
 #gnavi .gnavi-container .gu .gl:hover {  background: none  }
 #gnavi .gnavi-container .gu .gl a {  background: none;  }
+#side h3, #col3 h3, #side h4, #col3 h4 {
+    font-size: 1.4rem;
+    color: #ffffffcf;
+    margin: 4px 0 8px;
+}
+.widget_archive a, .widget_categories a {
+    padding: 3px 0 3px 9px;
+}
+#side .widget.widget_categories,
+#col3 .widget.widget_categories,
+#side .widget.widget_archive,
+#col3 .widget.widget_archive {
+    position: relative;
+}
+#side .widget.widget_categories:after, #col3 .widget.widget_categories:after {
+    content: "";
+    width: 80%;
+    border-bottom: 1px solid #ffffff4f;
+    left: 10%;
+    position: absolute;
+    bottom: 0;
+}
+#side .widget.widget_archive:before, #col3 .widget.widget_archive:before {
+    content: "";
+    width: 80%;
+    border-top: 1px solid #ffffff4f;
+    position: absolute;
+    left: 10%;
+    top: 0;
+}
+.term img {
+    border-radius: unset;
+}
+div[id^=card-] .term {
+    max-height: 22rem;
+    max-width: none;
+    padding: 0;
+}
+#list div[id^=card-] .term a {  display: inline-flex;  }
+#list div[id^=card-] section {  display: flex  }
+#list div[id^=card-] .term img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: 0;
+}
+#list .entry-title {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #list div[id^=card-] .term {
+        max-width: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media screen and (max-width: 575px) {
+    #list div[id^=card-] section {  flex-direction: column  }
+    #list div[id^=card-] .term a {
+        justify-content: center;
+    }
+
+        /*div[id^=card-] .term {*/
+        /*max-height: none*/
+    /*}*/
+}
