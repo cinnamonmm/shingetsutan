@@ -31,13 +31,13 @@ body {
 .textwidget .name._wr {  font-size: 2rem;  margin-top: 2.5rem;  }
 .aside._sns .fab {  font-size: 3.4rem;  color: #ffffffbf;  }
 .aside._img.__cnt {
-    width: 16rem;
+    width: 13rem;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
 .aside._name.__wr {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 2.5rem;
 }
 .aside._name .__cnt {
