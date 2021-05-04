@@ -35,6 +35,8 @@
  * ( Below here, please write down your own styles for the child theme. )
  */
 h1, h2, h3 {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;  }
+body {  font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;  }
+a {  color: #51c7b2;  }
 #sitename {  margin: 4rem 0;  }
 #header {
     background-repeat: no-repeat;
@@ -94,7 +96,8 @@ div[id^=card-] .term {
     margin-top: 1.5rem;
     margin-bottom: .5rem;
 }
-
+#list .toc {  margin: 0 0 5rem;  }
+#list div[id^="card-"] .read-more {  letter-spacing: 1px  }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     #list div[id^=card-] .term {
         max-width: none;
@@ -112,3 +115,42 @@ div[id^=card-] .term {
         /*max-height: none*/
     /*}*/
 }
+#toc_container {
+    width: 100%;
+    background: #51c7b22f;
+    color: white;
+    border: 1px solid #51c7b27f;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+#toc_container .toc_title {
+    font-size: 2rem;
+}
+.toc_toggle:before {
+    color: #999;
+    border: 1px solid #999;
+    font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif; 
+}
+#toc_container a {
+    color: white;
+}
+.post h2 {  border-left: 6px double;  }
+.post h3 {  border-left: 4px solid;  }
+.post h4 {  border-left: none;  }
+.post h4 span {  position: relative; padding: 0 2rem;  }
+.post h4 span:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    border-bottom: 1px solid #51c7b2;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+.post h2,
+.post h3,
+.post h4
+{
+    border-color: #51c7b2;
+}
+.post th {  background-color: inherit;  }

@@ -24,6 +24,8 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'style-child', get_stylesheet_directory_uri() . '/style.css', array( 'style' ) );
     wp_enqueue_style( 'common-child', get_stylesheet_directory_uri() . '/css/common.css' );
     if (is_front_page()) {
-        wp_enqueue_style( '' , get_stylesheet_directory_uri() . '/css/front_page.css');
+        wp_enqueue_style('', get_stylesheet_directory_uri() . '/css/front_page.css');
+    } else if (is_single()) {
+        wp_enqueue_style('', get_stylesheet_directory_uri() . '/css/single.css');
     }
 }

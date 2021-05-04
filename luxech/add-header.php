@@ -31,7 +31,7 @@ $header_imgs = [
 ]
 ?>
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+JP&family=Playfair+Display&family=El+Messiri&Playfair+Display:ital@1&family=Rochester&family=Fraunces&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+JP&family=Playfair+Display&family=El+Messiri&family=Shippori+Mincho&Playfair+Display:ital@1&family=Rochester&family=Fraunces&display=swap" rel="stylesheet">
 <script>
     $(function() {
         $("#header").css("background-image", "url(<?= $header_imgs[random_int(0, 13)] ?>)");

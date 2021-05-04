@@ -1,0 +1,54 @@
+.meta .category.items,
+.meta .category.items a,
+.meta .tags.items,
+.meta .tags.items a {
+    color: #51c7b2;
+}
+.meta .category.items a,
+.meta .tags.items a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.post {
+    letter-spacing: 1.5px;
+}
+/*#related-box {*/
+    /*background-color: rgba(255, 255, 255, 0.1)*/
+/*}*/
+.footnote {
+    background-color: #51c7b27f;
+    padding: 1.5rem 2rem;
+    font-style: italic;
+}
+#related .term img {
+    aspect-ratio: 16 / 9 !important;
+    float: none !important;
+    margin: 0 !important;
+    height: 108px !important;
+    width: auto !important;
+    padding: 0 !important;
+    border: none !important;
+    max-width: none !important;
+    max-height: 108px !important;
+    object-fit: cover !important;
+}
+#related .toc.clearfix {
+    display: flex;
+}
+#related .toc.clearfix .term {
+    margin: 0;
+}
+#related .toc.clearfix .excerpt {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#related h3 {
+    margin: 1rem !important;
+}
+#mainEntity .clearfix {
+    font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;
+}
+.post p.ini { margin-left: 1em; font-size: .8em }
