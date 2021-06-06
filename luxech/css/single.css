@@ -49,6 +49,10 @@
     margin: 1rem !important;
 }
 #mainEntity .clearfix {
+    font-family: 'Noto Sans', 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;
+}
+#mainEntity .clearfix .meta,
+{
     font-family: 'El Messiri', 'Playfair Display', 'Noto Serif JP', 'Noto Serif', serif;
 }
 .post p.ini { margin-left: 1em; font-size: .8em }
